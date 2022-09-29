@@ -21,7 +21,8 @@ public class MainFrame extends JFrame {
             labels[i].setFont(new Font("Tunga", Font.BOLD, 16));
         }
         add(userPanel, BorderLayout.NORTH);
-
+        
+        //Add buttons
 
         //Set customization of the frame
         setTitle("Calorie Tracker");
