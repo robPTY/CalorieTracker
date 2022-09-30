@@ -151,5 +151,7 @@ public class GUI extends JFrame {
         //Call function to initialize the GUI
         GUI logInForm = new GUI();
         logInForm.initialize();
+        
+        //Prepare to call register function
     }
 }
