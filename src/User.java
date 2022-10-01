@@ -4,4 +4,8 @@ public class User{
     public String phone;
     public String password;
     public String address;
+    
+    public String toString(){
+        
+    }
 }
