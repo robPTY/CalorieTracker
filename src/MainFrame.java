@@ -23,6 +23,8 @@ public class MainFrame extends JFrame {
         add(userPanel, BorderLayout.NORTH);
         
         //Add buttons
+        
+        //Add Images
 
         //Set customization of the frame
         setTitle("Calorie Tracker");
