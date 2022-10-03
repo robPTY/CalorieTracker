@@ -23,6 +23,7 @@ public class GUI extends JFrame {
         ImageIcon logo = new ImageIcon("C:/Users/rcagu/Desktop/Java Projects/LogInForm/src/Images/Logo1.png");
         logo.setImage(logo.getImage().getScaledInstance(40, 40, Image.SCALE_SMOOTH));
         JLabel image = new JLabel(logo);
+        //Resize logo
 
         //Email LB + TF
         JLabel emailLB = new JLabel("Email");
