@@ -98,7 +98,7 @@ public class GUI extends JFrame {
         setTitle("Login Form");
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setSize(400, 500);
-        setMinimumSize(new Dimension(350, 450));
+        setMinimumSize(new Dimension(350, 450)); //Change frame size
         //setResizable(false);
         setLocationRelativeTo(null);
         setVisible(true);
