@@ -25,7 +25,9 @@ public class MainFrame extends JFrame {
         //Add buttons
         
         //Add Images
-
+        
+        //Add Food Item
+        
         //Set customization of the frame
         setTitle("Calorie Tracker");
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
