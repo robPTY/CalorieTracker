@@ -7,6 +7,7 @@ public class User{
     
     //Add setter and getter methods
     
+    //method to calculate address based off location
     
     public String toString(){
         
