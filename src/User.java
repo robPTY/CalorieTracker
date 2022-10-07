@@ -5,6 +5,9 @@ public class User{
     public String password;
     public String address;
     
+    //Add setter and getter methods
+    
+    
     public String toString(){
         
     }
