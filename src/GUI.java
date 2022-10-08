@@ -140,7 +140,8 @@ public class GUI extends JFrame {
         return user;
     }
 
-
+    //Method to create user in Database
+    
     public static void main(String[] args) {
         //This makes sure that the GUI is dark mode
         try {
