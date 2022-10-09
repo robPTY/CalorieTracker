@@ -18,7 +18,7 @@ public class MainFrame extends JFrame {
         //Set the font for all the labels the same
         Component[] labels = userPanel.getComponents();
         for (int i = 0; i < labels.length; i++) {
-            labels[i].setFont(new Font("Tunga", Font.BOLD, 16));
+            labels[i].setFont(new Font("Tunga", Font.BOLD, 16)); //Font for everything as tunga.
         }
         add(userPanel, BorderLayout.NORTH);
         
