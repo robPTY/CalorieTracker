@@ -63,7 +63,7 @@ public class GUI extends JFrame {
                     mainFrame.initialize(user);
                     dispose();
                 }
-                else //If not registered, display erroe mesage
+                else //If not registered, display error mesage
                 {
                     JOptionPane.showMessageDialog(GUI.this,
                             "Email or Password Invalid",
