@@ -61,7 +61,7 @@ public class Register extends JFrame {
         regPanel.add(PWF);
         add(regPanel, BorderLayout.NORTH);
     
-        //Create Dropdown
+        //Add Image
         
         //Create registration button
 
