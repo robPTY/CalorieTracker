@@ -12,4 +12,6 @@ public class User{
     public String toString(){
         
     }
+    
+    //Add Registration method
 }
