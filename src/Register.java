@@ -5,7 +5,7 @@ public class Register extends JFrame {
     JTextField IDTF, NMTF, EMTF, PHTF, ADTF;
     JPasswordField PWF;
     public void RegisterInfo(){
-        JLabel titleLabel = new JLabel("Please Enter Details For Registration:", SwingConstants.CENTER);
+        JLabel titleLabel = new JLabel("Please Enter Details For Registration:", SwingConstants.CENTER); //Make sure details is aligned
         titleLabel.setFont(programFont);
 
         //ID Label
