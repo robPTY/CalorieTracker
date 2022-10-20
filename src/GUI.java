@@ -91,7 +91,7 @@ public class GUI extends JFrame {
         buttonsPanel.add(logInButt);
         buttonsPanel.add(registerButt);
 
-        //Frame Initialization
+        //Frame Initialization && customization
         add(formPanel, BorderLayout.NORTH);
         add(buttonsPanel, BorderLayout.SOUTH);
         //JFrame customization
