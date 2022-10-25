@@ -47,14 +47,6 @@ public class MainFrame extends JFrame {
         main.add(left, BorderLayout.CENTER);
         add(main);
         /* 
-        JPanel userPanel = new JPanel();
-        userPanel.setLayout(new GridLayout(0, 3, 5, 5));
-        EmptyBorder panelBorder = new EmptyBorder(10, 60, 10, 60);
-        userPanel.setBorder(panelBorder);
-        //userPanel.setBackground(Color.white);
-
-        */
-        /* 
         userPanel.add(new JLabel("Name"));
         userPanel.add(new JLabel(user.name));
         userPanel.add(new JLabel("Email"));
