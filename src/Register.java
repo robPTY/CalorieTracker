@@ -63,6 +63,8 @@ public class Register extends JFrame {
     
         //Add Image
         
+        //Add new buttons
+        
         //Create registration button
 
         //Set customization of the frame
