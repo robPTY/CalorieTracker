@@ -4,7 +4,7 @@ import java.awt.event.ActionListener; //Needed for buttons
 import java.sql.*; //Connect to Database for user logIn
 import javax.swing.*; //GUI technology
 import com.formdev.flatlaf.FlatDarculaLaf; //Makes GUI dark mode
-
+//Import new libaries
 public class GUI extends JFrame {
     final private Font programFont = new Font("Tunga", Font.BOLD, 18);
     JTextField emailTF;
