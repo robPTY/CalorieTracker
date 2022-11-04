@@ -16,4 +16,5 @@ public class User{
     //Add Registration method
     
     //(1) create user
+    //(2) Update register page
 }
