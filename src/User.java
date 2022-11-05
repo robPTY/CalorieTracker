@@ -17,4 +17,5 @@ public class User{
     
     //(1) create user
     //(2) Update register page
+    //(3) Update Workout log
 }
