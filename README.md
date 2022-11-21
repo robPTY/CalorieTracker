@@ -3,6 +3,9 @@ Calorie Tracker is an app made for beginner-friendly gym rats who are starting o
 It uses java.Swing library for it's GUI. This application will possibly published to a web app
 
 # Features
+-Profile Information
+-Workout Log
+-Calories Log
 
 # License
 
