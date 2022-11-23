@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.border.*;
 import java.awt.event.ActionEvent; //Needed for buttons
 import java.awt.event.ActionListener; //Needed for buttons
-//import javax.swing.table.DefaultTableModel;
+import javax.swing.table.DefaultTableModel;
 public class Workout extends JFrame {
     int lbX = 1;
     int lbY = 1;
