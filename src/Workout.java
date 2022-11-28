@@ -2,7 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.Color;
 import java.awt.event.*;
-//import javax.swing.JTable;
+import javax.swing.JTable;
 import javax.swing.JFrame;
 import javax.swing.border.*;
 import java.awt.event.ActionEvent; //Needed for buttons
