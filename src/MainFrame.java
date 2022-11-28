@@ -90,7 +90,7 @@ public class MainFrame extends JFrame {
         JButton PFB = new JButton("  Profile Info.  ");
         PFB.setBackground(Color.white);
         PFB.setForeground(Color.black);
-        PFB.setBorder(new LineBorder(Color.BLACK, 1));
+        PFB.setBorder(new LineBorder(Color.BLACK, 2));
         PFB.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
