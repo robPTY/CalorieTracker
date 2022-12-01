@@ -98,7 +98,7 @@ public class Workout extends JFrame {
 
         add(main);
         //add(lower);
-        setTitle("Calorie Tracker: Workout Log");
+        setTitle("Calorie++: Workout Log");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(1100, 650);
         setLocationRelativeTo(null);
