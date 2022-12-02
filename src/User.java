@@ -6,6 +6,8 @@ public class User{
     public String address;
     
     //Add setter and getter methods
+    public void getName(){
+    }
     
     //method to calculate address based off location
     
