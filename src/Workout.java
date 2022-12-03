@@ -11,6 +11,7 @@ import javax.swing.table.DefaultTableModel;
 public class Workout extends JFrame {
     int lbX = 1;
     int lbY = 1;
+    int dez = 0;
     int tfY = lbY +1;
     int rowNum;
     JPanel main;
