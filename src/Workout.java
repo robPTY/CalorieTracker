@@ -208,4 +208,7 @@ public class Workout extends JFrame {
 
         add(newPan);
     }
+    
+    public void createNewPage(){
+    }
 }
