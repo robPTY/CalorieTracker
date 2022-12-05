@@ -4,26 +4,29 @@ import java.awt.event.ActionListener; //Needed for buttons
 import java.sql.*; //Connect to Database for user logIn
 import javax.swing.*; //GUI technology
 import com.formdev.flatlaf.FlatDarculaLaf; //Makes GUI dark mode
-//Import new libaries
+
 public class GUI extends JFrame {
     final private Font programFont = new Font("Tunga", Font.BOLD, 18);
     JTextField emailTF;
     JPasswordField passwPF;
     ImageIcon image;
-
+    Color myColor1 = new Color(57, 119, 93); //green
     public void initialize() {
         //Create labels + textfield for email and password
-        JLabel titleLabel = new JLabel("Welcome to Calorie Tracker", SwingConstants.CENTER);
+        JLabel titleLabel = new JLabel("Welcome to Calorie++", SwingConstants.CENTER);
         titleLabel.setFont(programFont);
+
+        JLabel titleLabel2 = new JLabel("Calorie Tracker", SwingConstants.CENTER);
+        titleLabel2.setFont(programFont);
+        titleLabel2.setForeground(myColor1);
 
         //Add app logo to GUI 
         //image = new ImageIcon(getClass().getResource("LogoCalTracker.png"));
         //JLabel displayImage = new JLabel(image);
         //displayImage.setIcon(new ImageIcon(new ImageIcon("LogoCalTracker.png").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)));
-        ImageIcon logo = new ImageIcon("C:/Users/rcagu/Desktop/Java Projects/LogInForm/src/Images/Logo1.png");
-        logo.setImage(logo.getImage().getScaledInstance(40, 40, Image.SCALE_SMOOTH));
-        JLabel image = new JLabel(logo);
-        //Resize logo
+        //ImageIcon logo = new ImageIcon("C:/Users/rcagu/Desktop/Java Projects/LogInForm/src/Images/Logo1.png");
+        //logo.setImage(logo.getImage().getScaledInstance(40, 40, Image.SCALE_SMOOTH));
+        //JLabel image = new JLabel(logo);
 
         //Email LB + TF
         JLabel emailLB = new JLabel("Email");
@@ -41,7 +44,8 @@ public class GUI extends JFrame {
         formPanel.setLayout(new GridLayout(0, 1, 10, 10));
         formPanel.setBorder(BorderFactory.createEmptyBorder(30, 50, 30, 50));
         formPanel.add(titleLabel);
-        formPanel.add(image);
+        //formPanel.add(titleLabel2);
+        //formPanel.add(image);
         formPanel.add(emailLB);
         formPanel.add(emailTF);
         formPanel.add(passwLB);
@@ -78,6 +82,8 @@ public class GUI extends JFrame {
         registerButt.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                Register register = new Register();
+                register.RegisterInfo();
                 //Closes GUI
                 dispose();
             }
@@ -91,17 +97,18 @@ public class GUI extends JFrame {
         buttonsPanel.add(logInButt);
         buttonsPanel.add(registerButt);
 
-        //Frame Initialization && customization
+        //Frame Initialization
         add(formPanel, BorderLayout.NORTH);
         add(buttonsPanel, BorderLayout.SOUTH);
         //JFrame customization
-        setTitle("Login Form");
+        setTitle("Calorie++");
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setSize(400, 500);
-        setMinimumSize(new Dimension(350, 450)); //Change frame size
+        setMinimumSize(new Dimension(350, 450));
         //setResizable(false);
         setLocationRelativeTo(null);
         setVisible(true);
+        setResizable(false);
     }
 
 
@@ -140,8 +147,7 @@ public class GUI extends JFrame {
         return user;
     }
 
-    //Method to create user in Database
-    
+
     public static void main(String[] args) {
         //This makes sure that the GUI is dark mode
         try {
@@ -153,7 +159,5 @@ public class GUI extends JFrame {
         //Call function to initialize the GUI
         GUI logInForm = new GUI();
         logInForm.initialize();
-        
-        //Prepare to call register function
     }
 }
