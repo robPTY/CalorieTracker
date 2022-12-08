@@ -22,4 +22,5 @@ public class User{
     //(2.1) Addition of images
     //(3) Update Workout log
     //(3.1) Correct color coding
+    //(4.0)
 }
