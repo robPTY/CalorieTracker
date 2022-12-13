@@ -6,7 +6,7 @@ It uses java.Swing library for it's GUI. This application will possibly publishe
 -Profile Information 
   - Profile Picture Selection 
   - Theme/Font Change 
-  - Sign Out 
+  - Sign Out \
 -Workout Log \
 -Calories Log
 
