@@ -4,6 +4,9 @@ It uses java.Swing library for it's GUI. This application will possibly publishe
 
 # Features
 -Profile Information \
+  - Profile Picture Selection \ 
+  - Theme/Font Change \
+  - Sign Out \
 -Workout Log \
 -Calories Log
 
