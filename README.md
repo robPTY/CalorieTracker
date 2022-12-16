@@ -16,5 +16,7 @@ It uses java.Swing library for it's GUI. This application will possibly publishe
 # Tests
 
 # Future Implementations
+- Through .JSP
+- Information stores to database
 
 # Rules
