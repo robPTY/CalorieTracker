@@ -12,6 +12,7 @@ It uses java.Swing library for it's GUI. This application will possibly publishe
 -Calories Log
 
 # License
+- Harvard License
 
 # Tests
 
