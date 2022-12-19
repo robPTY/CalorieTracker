@@ -10,6 +10,7 @@ It uses java.Swing library for it's GUI. This application will possibly publishe
  
 -Workout Log \
 -Calories Log
+- Settings
 
 # License
 - Harvard License
