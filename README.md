@@ -9,8 +9,9 @@ It uses java.Swing library for it's GUI. This application will possibly publishe
   - Sign Out 
  
 -Workout Log \
--Calories Log
+- Calories Log
 - Settings
+- 
 
 # License
 - Harvard License
