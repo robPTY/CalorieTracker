@@ -21,6 +21,5 @@ It uses java.Swing library for it's GUI. This application will possibly publishe
 # Future Implementations
 - Through .JSP
 - Information stores to database
-- Settings expansion
 
 # Rules
